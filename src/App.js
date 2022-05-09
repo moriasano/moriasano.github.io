@@ -1,13 +1,13 @@
 import './styles/App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import Navbar from './components/Navbar';
+import Nav from './components/Nav';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Navbar></Navbar>
+        <Nav></Nav>
       </header>
     </div>
   );

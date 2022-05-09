@@ -1,14 +1,11 @@
-import './styles/App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-
 import Nav from './components/Nav';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <div>
+        <div style={{height: "65vh"}}></div>
         <Nav></Nav>
-      </header>
+        <div style={{height: "15vh"}}></div>
     </div>
   );
 }

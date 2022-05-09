@@ -1,0 +1,40 @@
+.buttonWrapper {
+    margin: 0 22px;
+    padding-top: 45px;
+}
+.button {
+    text-decoration: none;
+    padding: 20px 50px;
+    border: 3px solid grey;
+    position: relative;
+    color: grey;
+}
+.button:hover {
+    color: white;
+}
+.button::before,
+.button::after {
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border: inherit;
+    transition: all .5s;
+}
+.button::before {
+    top: -15px;
+    left: -15px;
+    border-width: 3px 0 0 3px;
+}
+.button::after {
+    bottom: -15px;
+    right: -15px;
+    border-width: 0 3px 3px 0;
+    color: white;
+}
+.button:hover::before,
+.button:hover::after {
+    width: calc(100% + 27px);
+    height: calc(100% + 27px);
+    border-color: white;
+}

@@ -1,12 +1,16 @@
-import styles from "../styles/AnimatedButton.css"
+import style from '../styles/AnimatedButton.css'
 
-function AnimatedButton() {
+// Make stylesheet a prop? parameter ?
+function AnimatedButton(props) {
     return (
-        <div className={styles}>
-            <div class="buttonWrapper">
-                <a href="#" class="button">MORI</a>
+        <div className={style}>
+            <div>
+                <button>
+                    {props.text}
+                </button>
             </div>
         </div>
+
     );
 }
 

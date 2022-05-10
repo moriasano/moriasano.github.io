@@ -1,11 +1,22 @@
+import styles from "../styles/Nav.css"
 import AnimatedButton from './AnimatedButton';
 
 function Nav() {
+
     return (
-        <div>
-            <div style={{height: "20vh", backgroundColor: "rgba(0, 0, 0, 0.5)"}}>
-            <AnimatedButton></AnimatedButton>
+        <div className={styles}>
+            <div class="container">
+         
+            <div class="button">
+                ⬆️
             </div>
+            
+                
+            </div>
+            {/* <div class="container">
+                <AnimatedButton text={"Home"}></AnimatedButton>
+                <AnimatedButton text={"Learn More"}></AnimatedButton>
+            </div> */}
         </div>
     );
 }

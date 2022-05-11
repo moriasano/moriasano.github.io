@@ -1,22 +1,34 @@
 import styles from "../styles/Nav.css"
-import AnimatedButton from './AnimatedButton';
 
-function Nav() {
+function Nav({setTab}) {
 
     return (
         <div className={styles}>
             <div class="container">
          
-            <div class="button">
-                ⬆️
-            </div>
+                <div class="buttonRow">
+                    <div>
+                        <button onClick={() => {setTab(1)}}>
+                            [Button 1]
+                        </button>
+                    </div>
+
+                    <div>
+                        <button onClick={() => {setTab(2)}}>
+                            [Button 2]
+                        </button>
+                    </div>
+
+                    <div>
+                        <button onClick={() => {setTab(3)}}>
+                            [Button 3]
+                        </button>
+                    </div>
+
+                </div>
             
                 
             </div>
-            {/* <div class="container">
-                <AnimatedButton text={"Home"}></AnimatedButton>
-                <AnimatedButton text={"Learn More"}></AnimatedButton>
-            </div> */}
         </div>
     );
 }

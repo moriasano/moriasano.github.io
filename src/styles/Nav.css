@@ -1,20 +1,20 @@
+
 .container {
-    transition: 3s;
+    transition: 1s;
     height: 5vh;
-    background-color: rgba(0, 0, 0, 0);
+    background-color: white;
     /* display: flex;
     flex-direction: row; */
 }
 .container:hover {
     transition: 3s;
-    height: 15vh;
-    margin-top: -30vh;
+    height: 20vh;
+    margin-top: -10vh;
     background-color: rgba(0, 0, 0, 0.9);
+    font-size: xx-large;
 }
-.button {
-    text-align: center;
-    color: white;
-}
-.button:hover {
-    color: red;
+
+.buttonRow {
+    display: flex;
+    justify-content: space-evenly;
 }

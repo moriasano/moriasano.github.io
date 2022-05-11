@@ -19,9 +19,12 @@ function App() {
 
   return (
     <div>
-        <div style={{height: "95vh"}}>
-        
-        { pageMapping[openTab] }
+        <div style={{height: "95vh", textAlign: "center"}}>
+          
+          
+          <div style={{backgroundColor: "rgba(192, 192, 192, 0.6)", width: "90%", height: "85%", display: "inline-block", marginTop: "5%", zIndex: -10}}>
+            { pageMapping[openTab] }
+          </div>
 
         </div>
         <Nav

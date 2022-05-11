@@ -2,7 +2,7 @@
 .container {
     transition: 1s;
     height: 5vh;
-    background-color: white;
+    background-color: rgba(0, 0, 0, 0.0);
     /* display: flex;
     flex-direction: row; */
 }

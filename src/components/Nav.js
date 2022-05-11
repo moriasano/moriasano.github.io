@@ -5,7 +5,8 @@ function Nav({setTab}) {
     return (
         <div className={styles}>
             <div class="container">
-         
+
+                &nbsp;
                 <div class="buttonRow">
                     <div>
                         <button onClick={() => {setTab(1)}}>

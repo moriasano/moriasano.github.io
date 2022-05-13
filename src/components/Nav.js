@@ -10,7 +10,7 @@ function Nav({setTab}) {
                 <div class="buttonRow">
                     <div>
                         <button onClick={() => {setTab(1)}}>
-                            [Button 1]
+                            [Parallax]
                         </button>
                     </div>
 
